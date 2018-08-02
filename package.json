@@ -1,0 +1,18 @@
+{
+  "name": "rater.web.v2.0.8",
+  "version": "2.0.8",
+  "description": "My Choice Rater Web v2.0.8",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chumpon Asaneerat",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/chumpon-asaneerat/Rater.Web.v2.08v8/issues"
+  },
+  "homepage": "https://github.com/chumpon-asaneerat/Rater.Web.v2.08v8#readme",
+  "dependencies": {
+    "npm": "^6.3.0"
+  }
+}
