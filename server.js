@@ -10,6 +10,14 @@ const expSvr = require(path.join(rootPath, 'lib', 'express-server'));
 
 //console.log(appcfg);
 const server = new expSvr.ExpressServer();
+server.setupMiddlewares([
+    'express-handlebars', 
+    'favicon', 
+    'logger', 
+    'helmet', 
+    'cookie-parser', 
+    'body-parser'
+]);
 
 // start server.
 server.start();
